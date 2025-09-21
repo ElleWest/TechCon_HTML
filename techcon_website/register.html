@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - TechCon 2024</title>
+</head>
+<body>
+    <header>
+        <h1>Register for TechCon 2024</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Join TechCon 2024</h2>
+        <p>Secure your spot at the most anticipated technology conference of the year. Early bird pricing is available until December 31, 2023.</p>
+        
+        <h3>Registration Information</h3>
+        <p>Complete the form below to register for TechCon 2024. All fields are required to process your registration.</p>
+        
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+                
+                <div>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                
+                <div>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                
+                <div>
+                    <label for="company">Company/Organization:</label>
+                    <input type="text" id="company" name="company">
+                </div>
+                
+                <div>
+                    <label for="jobtitle">Job Title:</label>
+                    <input type="text" id="jobtitle" name="jobtitle">
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Account Security</legend>
+                
+                <div>
+                    <label for="password">Create Password:</label>
+                    <input type="password" id="password" name="password" required minlength="8">
+                    <small>Password must be at least 8 characters long</small>
+                </div>
+                
+                <div>
+                    <label for="confirmpassword">Confirm Password:</label>
+                    <input type="password" id="confirmpassword" name="confirmpassword" required>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Conference Preferences</legend>
+                
+                <div>
+                    <label for="dietary">Dietary Restrictions:</label>
+                    <select id="dietary" name="dietary">
+                        <option value="none">None</option>
+                        <option value="vegetarian">Vegetarian</option>
+                        <option value="vegan">Vegan</option>
+                        <option value="gluten-free">Gluten-Free</option>
+                        <option value="kosher">Kosher</option>
+                        <option value="halal">Halal</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="accessibility">Accessibility Needs:</label>
+                    <textarea id="accessibility" name="accessibility" rows="3" placeholder="Please describe any accessibility accommodations you may need"></textarea>
+                </div>
+                
+                <div>
+                    <label for="interests">Areas of Interest (select all that apply):</label>
+                    <div>
+                        <input type="checkbox" id="ai" name="interests" value="ai">
+                        <label for="ai">Artificial Intelligence</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cloud" name="interests" value="cloud">
+                        <label for="cloud">Cloud Computing</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cybersecurity" name="interests" value="cybersecurity">
+                        <label for="cybersecurity">Cybersecurity</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="mobile" name="interests" value="mobile">
+                        <label for="mobile">Mobile Development</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="data" name="interests" value="data">
+                        <label for="data">Data Science</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="blockchain" name="interests" value="blockchain">
+                        <label for="blockchain">Blockchain</label>
+                    </div>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Terms and Conditions</legend>
+                
+                <div>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the <a href="#" target="_blank">Terms and Conditions</a> and <a href="#" target="_blank">Privacy Policy</a> of TechCon 2024</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">I would like to receive updates and newsletters about future TechCon events</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="marketing" name="marketing">
+                    <label for="marketing">I consent to receive marketing communications from TechCon partners and sponsors</label>
+                </div>
+            </fieldset>
+            
+            <div>
+                <button type="submit">Register Now</button>
+                <button type="reset">Clear Form</button>
+            </div>
+        </form>
+        
+        <h3>Registration Benefits</h3>
+        <ul>
+            <li>Access to all conference sessions and workshops</li>
+            <li>Networking opportunities with industry leaders</li>
+            <li>Conference materials and digital resources</li>
+            <li>Lunch and refreshments for all three days</li>
+            <li>Certificate of participation</li>
+            <li>Access to exclusive post-conference online content</li>
+        </ul>
+        
+        <h3>Pricing</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Registration Type</th>
+                    <th>Early Bird (Until Dec 31, 2023)</th>
+                    <th>Regular Price (After Dec 31, 2023)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>General Admission</td>
+                    <td>$299</td>
+                    <td>$399</td>
+                </tr>
+                <tr>
+                    <td>Student (with valid ID)</td>
+                    <td>$149</td>
+                    <td>$199</td>
+                </tr>
+                <tr>
+                    <td>Group (5+ attendees)</td>
+                    <td>$249 per person</td>
+                    <td>$349 per person</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>Copyright © 2024 TechCon 2024. All rights reserved.</p>
+    </footer>
+</body>
+</html>
